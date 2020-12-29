@@ -3,7 +3,7 @@
 ## Action Item
 
 1. Open your "Terminal" application using "Spotlight Search"
-2. Type `curl -so- https://raw.githubusercontent.com/learn-co-curriculum/flatiron-manual-setup-validator/master/mac-manual-setup-validator.sh | zsh 2> /dev/null`
+2. Type `curl -so- https://raw.githubusercontent.com/learn-co-curriculum/flatiron-manual-setup-validator/master/mac-os-phase-0-validation-script | zsh 2> /dev/null`
 
 ## Check Your Work
 
@@ -17,7 +17,8 @@ the **Check Your Work** section for that item, this may just be an issue with th
 
 ### Fixing NVM and RVM Dotfile Issues for MacOS
 
-If you are having trouble getting RVM, Ruby, NVM, or Node to work, you may have an issue with your `.zshrc` file. To fix, we need to run two commands.
+If you are having trouble getting RVM, Ruby, NVM, or Node to work, you may have an issue with
+your `.zshrc` file. To fix, we need to run two commands.
 
 The first command makes a backup of your current `.zshrc` file:
 
