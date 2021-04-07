@@ -62,18 +62,18 @@ To confirm Ruby is installed, run:
 rvm list
 ```
 
-If you see `=* ruby-2.6.1`, Ruby is installed and 2.6.1 set as the default version and you are all set for Ruby.
+If you see `=* ruby-2.7.2`, Ruby is installed and 2.7.2 set as the default version and you are all set for Ruby.
 
-> If you do not see `ruby-2.6.1` at all, install it with the following command:
+> If you do not see `ruby-2.7.2` at all, install it with the following command:
 >
 > ```sh
-> rvm install ruby-2.6.1
+> rvm install ruby-2.7.2
 > ```
 
-> If `ruby-2.6.1` is listed, but is not preceded by `=*`, make it the default version by running:
+> If `ruby-2.7.2` is listed, but is not preceded by `=*`, make it the default version by running:
 >
 > ```sh
-> rvm use 2.6.1 --default
+> rvm use 2.7.2 --default
 > ```
 
 ### Verify NVM is installed
