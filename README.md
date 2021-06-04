@@ -1,9 +1,9 @@
-# Verify and Troubleshoot your macOS Environment Setup 
+# Verify and Troubleshoot your macOS Environment Setup
 
 ## Action Item
 
 1. Open your "Terminal" application using "Spotlight Search"
-2. Type `curl -so- https://raw.githubusercontent.com/learn-co-curriculum/flatiron-manual-setup-validator/master/mac-os-phase-0-validation-script | zsh 2> /dev/null`
+2. Type `curl -so- https://raw.githubusercontent.com/learn-co-curriculum/flatiron-manual-setup-validator/master/mac-os-phase-0-validation-script.sh | zsh 2> /dev/null`
 
 ## Check Your Work
 
@@ -62,18 +62,18 @@ To confirm Ruby is installed, run:
 rvm list
 ```
 
-If you see `=* ruby-2.7.2`, Ruby is installed and 2.7.2 set as the default version and you are all set for Ruby.
+If you see `=* ruby-2.7.3`, Ruby is installed and 2.7.3 set as the default version and you are all set for Ruby.
 
-> If you do not see `ruby-2.7.2` at all, install it with the following command:
+> If you do not see `ruby-2.7.3` at all, install it with the following command:
 >
 > ```sh
-> rvm install ruby-2.7.2
+> rvm install ruby-2.7.3
 > ```
 
-> If `ruby-2.7.2` is listed, but is not preceded by `=*`, make it the default version by running:
+> If `ruby-2.7.3` is listed, but is not preceded by `=*`, make it the default version by running:
 >
 > ```sh
-> rvm use 2.7.2 --default
+> rvm use 2.7.3 --default
 > ```
 
 ### Verify NVM is installed
@@ -84,12 +84,12 @@ To confirm NVM is installed, run:
 nvm
 ```
 
-If you see a message ending with `“Note: to remove, delete, or uninstall nvm…”`, NVM is installed. 
+If you see a message ending with `“Note: to remove, delete, or uninstall nvm…”`, NVM is installed.
 
 > If the `nvm` command is not recognized or you see an error `complete:13: command not found: compdef`, run the following command:
 >
 > ```sh
-> curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
+> curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
 > ```
 
 ### Verify Node is Installed
@@ -204,9 +204,9 @@ Below are some options to try for specific issues.
 
 ### `learn` Commands Produce `psych` Gem Errors
 
-This error is typically due to issues in the `~/.learn-config` file. 
+This error is typically due to issues in the `~/.learn-config` file.
 
-1.  Run `code ~/.learn-config`. This file should only have three lines in it, 
+1.  Run `code ~/.learn-config`. This file should only have three lines in it,
     similar to the example below:
 
     ```sh
@@ -217,6 +217,6 @@ This error is typically due to issues in the `~/.learn-config` file.
 
 2.  Check for any typos or extra content. Make sure the `:learn_directory` path
     is valid and has your computer's username after `/Users/`. You can confirm this
-    name by running `echo $HOME`. 
+    name by running `echo $HOME`.
 
 3.  Save the `.learn-config` file and try running `learn whoami`.  -->
