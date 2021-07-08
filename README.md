@@ -62,18 +62,18 @@ To confirm Ruby is installed, run:
 rvm list
 ```
 
-If you see `=* ruby-2.7.3`, Ruby is installed and 2.7.3 set as the default version and you are all set for Ruby.
+If you see `=* ruby-2.7.4`, Ruby is installed and 2.7.4 set as the default version and you are all set for Ruby.
 
-> If you do not see `ruby-2.7.3` at all, install it with the following command:
+> If you do not see `ruby-2.7.4` at all, install it with the following command:
 >
 > ```sh
-> rvm install ruby-2.7.3
+> rvm install ruby-2.7.4
 > ```
 
-> If `ruby-2.7.3` is listed, but is not preceded by `=*`, make it the default version by running:
+> If `ruby-2.7.4` is listed, but is not preceded by `=*`, make it the default version by running:
 >
 > ```sh
-> rvm use 2.7.3 --default
+> rvm use 2.7.4 --default
 > ```
 
 ### Verify NVM is installed
