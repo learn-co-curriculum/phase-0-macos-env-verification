@@ -7,11 +7,15 @@
 
 ## Check Your Work
 
-If all checks pass, you have completed your environment setup and are ready to move on!
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CNuoCmve-xc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-If something does not pass, that is okay. Revisit the installation instructions for the
-item that did not pass. If you are able to run the commands listed in
-the **Check Your Work** section for that item, this may just be an issue with the validator.
+If all checks pass, you have completed your environment setup and are ready to
+move on!
+
+If something does not pass, that is okay. Revisit the installation instructions
+for the item that did not pass. If you are able to run the commands listed in
+the **Check Your Work** section for that item, this may just be an issue with
+the validator.
 
 ## Troubleshooting
 
@@ -65,7 +69,8 @@ To confirm Ruby is installed, run:
 $ rvm list
 ```
 
-If you see `=* ruby-2.7.4`, Ruby is installed and 2.7.4 set as the default version and you are all set for Ruby.
+If you see `=* ruby-2.7.4`, Ruby is installed and 2.7.4 set as the default
+version and you are all set for Ruby.
 
 > If you do not see `ruby-2.7.4` at all, install it with the following command:
 >
@@ -89,7 +94,8 @@ $ nvm
 
 If you see a message ending with `"Note: to remove, delete, or uninstall nvm…"`, NVM is installed.
 
-> If the `nvm` command is not recognized or you see an error `complete:13: command not found: compdef`, run the following command:
+> If the `nvm` command is not recognized or you see an error
+> `complete:13: command not found: compdef`, run the following command:
 >
 > ```console
 > $ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
@@ -103,7 +109,8 @@ To confirm Node is installed, run:
 $ nvm list
 ```
 
-If you see a message starting with "-> v14.13.0" (or any number higher than this), a version of Node is installed that will work for this course.
+If you see a message starting with "-> v14.13.0" (or any number higher than
+this), a version of Node is installed that will work for this course.
 
 > If you don't see this number, install the newest version of Node:
 >
