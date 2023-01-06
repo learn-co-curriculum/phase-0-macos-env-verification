@@ -5,8 +5,8 @@
 1. Open your "Terminal" application using "Spotlight Search"
 2. Run the following command:
 
-```bash
-curl -so- https://raw.githubusercontent.com/learn-co-curriculum/flatiron-manual-setup-validator/master/mac-os-phase-0-validation-script.sh | zsh 2> /dev/null
+```console
+$ curl -so- https://raw.githubusercontent.com/learn-co-curriculum/flatiron-manual-setup-validator/master/mac-os-phase-0-validation-script.sh | zsh 2> /dev/null
 ```
 
 ## Check Your Work
